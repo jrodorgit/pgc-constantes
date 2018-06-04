@@ -1,0 +1,53 @@
+{
+   "Entidades": [
+      {
+         "nombre": "ZZConstantes",
+         "descripcion": "Dominio de constantes de la aplicación",
+         "tipo": "CONSTANTES",
+         "author": "www.rodor.net"
+         
+         "atributos":[
+         	{
+         		"nombreatr": "clave"
+         		"descatr": "Clave del elemento"
+         		"tipoatr": "ALFANUMERICO"
+         		"formato": "20"
+         		"pk": ""
+         		"fk": ""
+         		"nulo":"NO"
+         	},
+         	
+         	{
+         		"nombreatr": "descripcion"
+         		"descatr": "Valor del elemento"
+         		"tipoatr": "ALFANUMERICO"
+         		"formato": "1024"
+         		"pk": ""
+         		"fk": ""
+         		"nulo":"NO"
+         	},
+         	
+         	{
+         		"nombreatr": "fechini"
+         		"descatr": "fecha de inicio de validez del valor"
+         		"tipoatr": "FECHA"
+         		"formato": ""
+         		"pk": ""
+         		"fk": ""
+         		"nulo":"NO"
+         	},
+         	
+         	{
+         		"nombreatr": "fechfin"
+         		"descatr": "fecha de fin de validez del valor"
+         		"tipoatr": "FECHA"
+         		"formato": ""
+         		"pk": ""
+         		"fk": ""
+         		"nulo":"NO"
+         	}
+         ]
+      }
+      
+   ]
+}
