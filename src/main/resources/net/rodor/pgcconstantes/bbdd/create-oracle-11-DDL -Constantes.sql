@@ -1,3 +1,4 @@
+-- script creacion constantes
 CREATE TABLE ZZConstantes(
 clave VARCHAR2(20) NOT NULL ,
 descripcion VARCHAR2(1024) NOT NULL ,
@@ -6,7 +7,7 @@ fechfin TIMESTAMP NOT NULL
  
 ) 
 LOGGING;
-COMMENT ON TABLE ZZConstantes IS 'Dominio de constantes de la aplicación';
+COMMENT ON TABLE ZZConstantes IS 'Dominio de constantes de la aplicaciï¿½n';
 COMMENT ON COLUMN ZZConstantes.clave IS 'Clave del elemento';
 COMMENT ON COLUMN ZZConstantes.descripcion IS 'Valor del elemento';
 COMMENT ON COLUMN ZZConstantes.fechini IS 'fecha de inicio de validez del valor';
