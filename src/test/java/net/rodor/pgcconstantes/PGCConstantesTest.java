@@ -26,7 +26,7 @@ public class PGCConstantesTest extends TestCase{
 	
 	public void testApp(){
 		//System.out.println("Lanzando pruebas...");
-		
+		//
 		ConstantesLoaderInt constLoader = ConstantesLoader.getInstance();
 		Hashtable<String, ConstantesBean> constantes = constLoader.getActiveConstantes();
 		//System.out.println("constA:"+constantes.toString());
