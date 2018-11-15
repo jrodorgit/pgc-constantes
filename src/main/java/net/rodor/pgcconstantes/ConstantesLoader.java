@@ -20,7 +20,7 @@ public class ConstantesLoader implements ConstantesLoaderInt{
 	public  static ConstantesLoader getInstance(){
 		return instance;
 	}
-	
+	//comentario
 	public Hashtable<String,ConstantesBean> getActiveConstantes(){
 		if( !ConstantesSet.isEmpty()){
 			logg.debug("Devolviendo constantes."+ConstantesSet.toString());
